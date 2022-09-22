@@ -3,7 +3,7 @@ html {
   margin: 0;
   padding: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: rgb(240, 255, 255);
+  background-color: white;
 }
 
 ul {
@@ -35,23 +35,36 @@ a {
   padding-right: 1rem;
 }
 
+.content ul li {
+  margin-bottom: 10px;
+}
+
+
 .main p {
-    text-align: justify;
+  text-align: justify;
 }
 
 .main ul {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .main ul .thumb {
-    display: flex;
-    background-color: lightgreen;
+  display: flex;
+  background-color: #f8f9fa;
+}
+
+.main h2 {
+  margin-top: 50px;
+}
+
+.main hr {
+  margin-bottom: 30px;
 }
 
 .gallerytext {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .footer {
@@ -70,4 +83,51 @@ a {
 
 figure {
   text-align: center;
+}
+
+/* aritmetica.html */
+.text-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.paragraph {
+  width: 66%;
+}
+
+div.thumb {
+  width: 200px;
+  background-color: transparent;
+}
+
+div.algebra_thumb_one {
+  height: 500px;
+}
+
+.thumbinner {
+  border: 1px solid #c8ccd1;
+  background-color: #f8f9fa;
+  font-size: 94%;
+  padding: 3px;
+  text-align: center;
+  overflow: hidden;
+}
+
+blockquote {
+  background-color: #f1f1f1;
+  padding: 0.5em 1.5em;
+  border-left: 5px solid #ccc;
+}
+
+ol.propriedades {
+  margin-bottom: 75px;
+}
+ol.propriedades li:not(:first-child) {
+  margin-top: 75px;
+}
+
+ol.propriedades p {
+  text-align: center;
+  line-height: 0.5rem;
 }
