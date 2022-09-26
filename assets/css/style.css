@@ -54,12 +54,25 @@ a {
   background-color: #f8f9fa;
 }
 
+.main ul.algebra_classificacao {
+  display: block;
+  list-style: square;
+  margin-left: 25px;
+}
+
 .main h2 {
   margin-top: 50px;
 }
 
+.main h3 {
+  margin: 50px 0 20px;
+}
 .main hr {
   margin-bottom: 30px;
+}
+
+.main > *:last-child {
+  margin-bottom: 100px;
 }
 
 .gallerytext {
@@ -123,6 +136,11 @@ blockquote {
 ol.propriedades {
   margin-bottom: 75px;
 }
+
+ol.propriedades li {
+  font-weight: bold;
+}
+
 ol.propriedades li:not(:first-child) {
   margin-top: 75px;
 }
@@ -130,4 +148,53 @@ ol.propriedades li:not(:first-child) {
 ol.propriedades p {
   text-align: center;
   line-height: 0.5rem;
+}
+
+ol.equacoes li {
+  margin-bottom: 10px;
+}
+
+.video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* analise */
+
+.analise .paragraph {
+  width: 50%;
+}
+
+.analise .images {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 50%;
+}
+
+.analise .images .thumb-2 {
+  margin-right: 100px;
+}
+
+.images > * {
+  margin-bottom: 50px;
+}
+
+ul.analise_ramos {
+  display: block;
+  list-style-type: square;
+  margin-left: 25px;
+}
+
+.div_analise_real .paragraph {
+  width: 60%;
+}
+
+.div_analise_real .images {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 40%;
 }
