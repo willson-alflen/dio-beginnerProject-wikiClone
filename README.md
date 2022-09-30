@@ -1,10 +1,5 @@
 # dio-beginnerProject-wikiClone
 
-https://willson-alflen.github.io/dio-beginnerProject-wikiClone/
-
-
-# dio-beginnerProject-dentistOfficeWebsite
-
 ***
 
 Webpage developed as a requirement for the "Formação HTML" course by Digital Innovation One.
