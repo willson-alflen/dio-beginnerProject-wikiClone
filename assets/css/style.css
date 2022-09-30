@@ -16,6 +16,10 @@ a {
   text-decoration: none;
 }
 
+.header .logo {
+  margin-left: 2rem;
+}
+
 .bar {
   background-color: #f9f9fb;
   padding: 15px;
@@ -38,7 +42,6 @@ a {
 .content ul li {
   margin-bottom: 10px;
 }
-
 
 .main p {
   text-align: justify;
@@ -98,6 +101,29 @@ figure {
   text-align: center;
 }
 
+/* algebra.html */
+
+.main-algebra .text-img .paragraph {
+  width: 65%;
+}
+
+.main-algebra .text-img {
+  display: flex;
+  justify-content: space-between;
+}
+
+.algebra figure,
+.aritmetica figure {
+  margin: 0;
+}
+
+.main-algebra blockquote {
+  background-color: #f1f1f1;
+  padding: 0.5em 1.5em;
+  margin: 30px 70px;
+  border-left: 5px solid #ccc;
+}
+
 /* aritmetica.html */
 .text-img {
   display: flex;
@@ -105,8 +131,8 @@ figure {
   align-items: center;
 }
 
-.paragraph {
-  width: 66%;
+.aritmetica .paragraph {
+  width: 70%;
 }
 
 div.thumb {
@@ -125,12 +151,6 @@ div.algebra_thumb_one {
   padding: 3px;
   text-align: center;
   overflow: hidden;
-}
-
-blockquote {
-  background-color: #f1f1f1;
-  padding: 0.5em 1.5em;
-  border-left: 5px solid #ccc;
 }
 
 ol.propriedades {
@@ -162,24 +182,30 @@ ol.equacoes li {
 }
 
 /* analise */
+.analise {
+  display: flex;
+  align-items: flex-start;
+}
 
 .analise .paragraph {
-  width: 50%;
+  width: 60%;
 }
 
-.analise .images {
+.analise .images,
+.div_analise_real .images {
   display: flex;
   flex-flow: column;
-  align-items: center;
-  width: 50%;
+  align-items: flex-end;
 }
 
-.analise .images .thumb-2 {
-  margin-right: 100px;
+.analise .images figure,
+.div_analise_real .images figure {
+  margin: 0 0 30px;
 }
 
-.images > * {
-  margin-bottom: 50px;
+.analise .images figure:last-child,
+.div_analise_real .images figure:last-child {
+  margin-bottom: 0;
 }
 
 ul.analise_ramos {
@@ -189,12 +215,59 @@ ul.analise_ramos {
 }
 
 .div_analise_real .paragraph {
-  width: 60%;
+  width: 65%;
 }
 
-.div_analise_real .images {
+/* geometria.html */
+.geometria .paragraph {
+  width: 65%;
+}
+
+.geometria .images {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+}
+
+.geometria .images figure {
+  margin: 10px 0;
+}
+
+.geometria-2 figure,
+.geometria-3 figure,
+.geometria-4 figure,
+.geometria-5 figure {
+  margin: 0;
+}
+
+.geometria-2 .paragraph,
+.geometria-3 .paragraph {
+  width: 70%;
+}
+
+
+.geometria-4 .paragraph {
+  width: 75%;
+}
+
+
+.geometria-5 {
+  display: flex;
+  align-items: flex-start;
+}
+
+.geometria-5 .paragraph {
+  width: 65%;
+}
+
+.geometria-5 .images {
   display: flex;
   flex-flow: column;
   align-items: center;
-  width: 40%;
+  padding-top: 10px;
+}
+
+.geometria-5 .images figure {
+  margin: 10px 0;
+  object-fit: fit;
 }
